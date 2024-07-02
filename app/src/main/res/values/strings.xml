@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SelDoc</string>
+    <string name="drawer_opened">Opened Drawer</string>
+    <string name="drawer_closed">Closed Drawer</string>
+    <string name="naver_client_id">TyGKP0Qogu49shu6ca0D</string>
+    <string name="naver_client_secret">0IYJqAwlvx</string>
+    <string name="default_client_id">367307118433-m0f0gjqj466qn9ucull3keq64cf49jah.apps.googleusercontent.com</string>
+
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

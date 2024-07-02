@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="[구분] 제품명"
+        android:id="@+id/itemName"
+        android:textSize="30dp"
+        android:textColor="#0000ff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="제조원"
+        android:id="@+id/entpName"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="효능"
+        android:id="@+id/efcyQesitm"
+        android:textColor="#005500"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사용법"
+        android:id="@+id/useMethodQesitm"
+        android:textColor="#005500"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주의사항"
+        android:id="@+id/atpnQesitm"
+        android:textColor="#005500"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주의사항 경고"
+        android:id="@+id/atpnWarnQesitm"
+        android:textColor="#005500"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="부작용"
+        android:id="@+id/seQesitm"
+        android:textColor="#005500"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="상호작용"
+        android:id="@+id/intrcQesitm"
+        android:textColor="#005500"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="보관법"
+        android:id="@+id/depositMethodQesitm"
+        android:textColor="#005500"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:scaleType="fitXY" />
+</LinearLayout>
